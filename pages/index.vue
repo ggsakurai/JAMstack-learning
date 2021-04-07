@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        project
+        Nuxtはじめました
       </h1>
       <div class="links">
         <a
@@ -28,7 +28,12 @@
 </template>
 
 <script>
-export default {}
+import Logo from "@/components/Logo.vue";
+export default {
+  components: {
+    Logo
+  }
+};
 </script>
 
 <style>
