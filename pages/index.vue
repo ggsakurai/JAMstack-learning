@@ -3,7 +3,9 @@
     <card
       v-for="(post,i ) in posts"
       :key="i"
-      :title="post.fields.test"
+      :event_date="post.fields.date"
+      :title="post.fields.title"
+      :description="post.fields.description"
       :id="post.sys.id"
       :date="post.sys.updatedAt"
     />
